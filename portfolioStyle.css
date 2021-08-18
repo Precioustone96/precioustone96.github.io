@@ -1,0 +1,125 @@
+Html, Body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    background-color: black; 
+    scroll-behavior: smooth;}
+  
+.container{
+    background-color: black; 
+    font-family: sans-serif;
+    font-size: 100px;
+    width: 80%;
+}
+nav{
+margin-top: .15em;
+margin-bottom: 1em;
+height: .5em;
+display: flex;
+
+justify-content: space-around;
+margin-left: 5em;
+}
+
+
+
+a {
+    font-size: 1.2rem;;
+ color: rgb(245, 115, 136);
+ font-weight: bold;
+ font-style: none;
+ text-decoration: none;
+ padding: .7em;
+ border: .1em solid rgb(202, 168, 15);
+ border-radius: 1em;
+}
+a:hover {
+    color: white;
+}
+.intro, .ContactDetail {
+    border: .2rem solid rgb(202, 168, 15);
+   margin-left: 10%;
+    display: flex;
+    width:110%;
+    height: 2.5em;
+   color: rgb(202, 168, 15);
+   margin-bottom: .5em;
+}
+.aboutme, .myskill, .projectsDone {
+    border: .2rem solid rgb(202, 168, 15);
+    margin-left: 10%;
+     display: block;
+     width:110%;
+     height: 3.5em;
+    color: rgb(202, 168, 15); 
+    margin-bottom: .5em;
+}
+h1{
+    font-size:.6em;
+  margin-left: 0.4em;
+  margin-top: 0;
+  margin-bottom: 0%;
+    Color: #fff;
+}
+
+
+p {
+ margin-top: 7%;
+    font-size: .4em;
+  text-align: center;
+  vertical-align: middle;
+  width:100%;
+  padding: .5em;
+  
+}
+p.introtext {
+    font-size: .3em;
+    color: rgb(202, 168, 15);
+    font-weight: bold;
+    margin-top: 2%;
+    margin-right: 3%;
+    line-height: 200%;
+    text-align: right;
+}
+p.abouttext{
+
+}
+
+img {
+    align: center;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 12%;
+    border-radius: 50%;
+    border: .2rem solid rgb(202, 168, 15);
+  }
+  .myskill{
+      display: flex;
+  }
+  img.html, .css {
+      height: 60%;
+      background-color:rgb(202, 168, 15);
+      margin: 7%;
+      align-items: center;
+  }
+  ul {
+      font-size: 60%;
+      margin-left: 5%;
+ 
+    }
+
+  li {
+     background: solid rgb(202, 168, 15);
+    }
+    .phone {
+        height: 40%;
+        background-color:rgb(202, 168, 15);
+        margin-top: 7%;
+        align-items: center;
+
+    }
+  strong{
+      margin-top: 5%;
+      padding: 2%;
+  }
